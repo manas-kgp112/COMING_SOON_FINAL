@@ -41,7 +41,7 @@ $('#eadForm').submit((e)=>
 // // 					startup_name: startup_name, 
 // 					fundr: fundr, 
 // 					loan: loan,
-					loan_type: loan_type,
+					// loan_type: loan_type,
 // 					description: description, 
 // 					events: events, 
 // 					lfunds: lfunds, 
