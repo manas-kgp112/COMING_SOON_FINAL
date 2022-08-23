@@ -7,10 +7,10 @@ $('#eadForm').submit((e)=>
 			var mobile = $('#mobile1').val();
 			var city = $('#city1').val();
 			var startup = $('#startup1').val();
-      var college=$('#college').val();
-  			var referral_code=$('#referral_code').val();
-  			var loan_type = $('#eloan').val();
-       var source=$('#source').val();
+      		var college=$('#college').val();
+  			// var referral_code=$('#referral_code').val();
+  			// var loan_type = $('#eloan').val();
+       		var source=$('#source').val();
 
 
 // 			var stage = $('#stage').val();
@@ -48,7 +48,7 @@ $('#eadForm').submit((e)=>
 // 					pitchdeck: pitchdeck,
 // 					sector: sector,
           source:source,
-					referral_code:referral_code,
+					// referral_code:referral_code,
 // 					recaptcha: grecaptcha.getResponse(recaptcha1),
 					
 				},
