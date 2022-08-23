@@ -70,13 +70,14 @@
     align-items: center;
 }
 .cont-bottom a{
-    color: #ffffff;
+    color: #E04D01;
     width: 4rem;
     height: 4rem;
     line-height: 4rem;
     text-align: center;
     font-size: 1.5rem;
-    background-color: #181818;
+    /* background-color: #181818; */
+    background-color: white;
     border-radius: 50%;
 }
 .cont-bottom a:hover{
@@ -98,7 +99,7 @@
 .cont-right form input, textarea, button{
     width: 100%;
     margin: 1rem 0;
-    background-color: transparent;
+    background-color: #C0C0C0;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
     outline: none;
