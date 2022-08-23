@@ -507,7 +507,7 @@ canvas {
 }
 
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  background-color: #E04D01;
 }
 
 /* about section starts */
@@ -1247,12 +1247,12 @@ body {
 
 .card {
   float: left;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .card-one {
   position: relative;
-  width: 300px;
+  width: 350px;
   background: #fff;
   box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.4);
 }
@@ -1309,7 +1309,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100px;
+  width: 130px;
   height: auto;
 }
 
@@ -1409,7 +1409,7 @@ body {
 }
 
 .card-one footer a:hover {
-  color: #c8c;
+  color: #FF7700;
 }
 
 .card-one footer::before {
