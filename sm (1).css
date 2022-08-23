@@ -265,6 +265,7 @@ canvas {
   justify-content: space-between;
   padding: 1.7rem 10%;
   background-color: #fff;
+  /* background-color: #E04D01; */
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
   width: 100vw;
 }
@@ -1027,7 +1028,7 @@ form .button-area {
 
 .footer .footer-box-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
@@ -1261,7 +1262,7 @@ body {
   position: relative;
   width: 100%;
   height: 60px;
-  background-color: #c8c;
+  background-color: #E04D01;
 }
 
 .card-one header::before,
@@ -1274,6 +1275,7 @@ body {
   left: 0;
   right: 0;
   background: inherit;
+  background-color: #E04D01;
 }
 
 .card-one header::before {
@@ -1292,10 +1294,10 @@ body {
   position: absolute;
   left: 50%;
   top: 30px;
-  margin-left: -50px;
+  margin-left: -70px;
   z-index: 0;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   background: #ccc;

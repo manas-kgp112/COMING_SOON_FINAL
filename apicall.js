@@ -162,7 +162,7 @@ $('#contactForm').submit((e)=>{
 					  name: name,
 					  email: email,
 					  subject: subject, 
-					  message: message, 
+					  body: message, 
 					//   startup: startup, 
 					//   stage: stage, 
 					//   startup_name: startup_name, 
