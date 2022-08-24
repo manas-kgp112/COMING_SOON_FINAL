@@ -115,7 +115,7 @@ function changeWord() {
     }
     j++;
 }
-setInterval(changeWord, 1000);
+setInterval(changeWord, 1500);
 
 
 // EAD-LSM Section
