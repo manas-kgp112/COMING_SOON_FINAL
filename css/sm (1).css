@@ -507,7 +507,7 @@ canvas {
 }
 
 .social-icons a.instagram:hover {
-  background-color: #E04D01;
+  background-color: #E25822;
 }
 
 /* about section starts */
@@ -1262,7 +1262,7 @@ body {
   position: relative;
   width: 100%;
   height: 60px;
-  background-color: #E04D01;
+  background-color: #E25822;
 }
 
 .card-one header::before,
@@ -1275,7 +1275,7 @@ body {
   left: 0;
   right: 0;
   background: inherit;
-  background-color: #E04D01;
+  background-color: #E25822;
 }
 
 .card-one header::before {

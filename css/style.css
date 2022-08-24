@@ -1089,7 +1089,7 @@ header {
 
 /* about section starts */
 .about {
-  background: #2A2550;
+  background: #10316B;
 }
 
 .about .row {
@@ -1128,7 +1128,7 @@ header {
 }
 
 .about .row .content h3 {
-  color: #E04D01;
+  color: #E25822;
   font-size: 2.5rem;
   padding-bottom: 0.69rem;
 }

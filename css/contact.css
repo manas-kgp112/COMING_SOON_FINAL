@@ -11,7 +11,7 @@
 } */
 
 #contact{
-    background-color: #2A2550;
+    background-color: #10316B;
     height: fit-content;
     width: 100%;
     overflow: hidden;
@@ -70,7 +70,7 @@
     align-items: center;
 }
 .cont-bottom a{
-    color: #E04D01;
+    color: #E25822;
     width: 4rem;
     height: 4rem;
     line-height: 4rem;
@@ -99,11 +99,11 @@
 .cont-right form input, textarea, button{
     width: 100%;
     margin: 1rem 0;
-    background-color: #C0C0C0;
+    background-color:  transparent;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
     outline: none;
-    border: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     color: #ffffff; 
     transition: all 0.4s ease;
 }
