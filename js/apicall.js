@@ -7,10 +7,10 @@ $('#eadForm').submit((e)=>
 			var mobile = $('#mobile1').val();
 			var city = $('#city1').val();
 			var startup = $('#startup1').val();
-      		var college=$('#college').val();
+      var college=$('#college').val();
   			// var referral_code=$('#referral_code').val();
   			// var loan_type = $('#eloan').val();
-       		var source=$('#source').val();
+       var source=$('#source').val();
 
 
 // 			var stage = $('#stage').val();
