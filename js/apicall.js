@@ -8,7 +8,7 @@ $('#eadForm').submit((e)=>
 			var city = $('#city1').val();
 			var startup = $('#startup1').val();
       var college=$('#college').val();
-  			// var referral_code=$('#referral_code').val();
+  			var referral_code=$('#referral_code').val();
   			// var loan_type = $('#eloan').val();
        var source=$('#source').val();
 
@@ -48,7 +48,7 @@ $('#eadForm').submit((e)=>
 // 					pitchdeck: pitchdeck,
 // 					sector: sector,
           source:source,
-					// referral_code:referral_code,
+					referral_code:referral_code,
 // 					recaptcha: grecaptcha.getResponse(recaptcha1),
 					
 				},
@@ -162,7 +162,7 @@ $('#contactForm').submit((e)=>{
 					  name: name,
 					  email: email,
 					  subject: subject, 
-					  body: message, 
+					  message: message, 
 					//   startup: startup, 
 					//   stage: stage, 
 					//   startup_name: startup_name, 
