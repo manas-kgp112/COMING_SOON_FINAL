@@ -32,19 +32,19 @@ function ead_events_func() {
     animateValue_twodigit(ead_events, 0, 25, 5000);
 }
 
-function lsm_pitches_func() {
-    const lsm_pitches = document.getElementById("lsm_pitches");
-    animateValue_twodigit(lsm_pitches, 0, 7, 5000);
+function lsm_sectors_func() {
+    const lsm_sectors = document.getElementById("lsm_sectors");
+    animateValue_twodigit(lsm_sectors, 0, 7, 5000);
 }
 
 function lsm_investors_func() {
     const lsm_investors = document.getElementById("lsm_investors");
-    animateValue_twodigit(lsm_investors, 0, 10, 5000);
+    animateValue_twodigit(lsm_investors, 0, 15, 5000);
 }
 
 function lsm_startups_func() {
     const lsm_startups = document.getElementById("lsm_startups");
-    animateValue_twodigit(lsm_startups, 0, 300, 5000);
+    animateValue_twodigit(lsm_startups, 0, 500, 5000);
 }
 
 
@@ -164,7 +164,7 @@ function myFunction() {
 
         lsm_investors_func();
 
-        lsm_pitches_func();
+        lsm_sectors_func();
 
     }
 }
