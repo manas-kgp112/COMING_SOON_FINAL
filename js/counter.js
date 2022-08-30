@@ -29,22 +29,22 @@ function ead_speakers_func() {
 
 function ead_events_func() {
     const ead_events = document.getElementById("ead_events");
-    animateValue_twodigit(ead_events, 0, 100, 5000);
+    animateValue_twodigit(ead_events, 0, 25, 5000);
 }
 
 function lsm_pitches_func() {
-    const ead_attendees = document.getElementById("lsm_pitches");
-    animateValue_twodigit(ead_attendees, 0, 7, 5000);
+    const lsm_pitches = document.getElementById("lsm_pitches");
+    animateValue_twodigit(lsm_pitches, 0, 7, 5000);
 }
 
 function lsm_investors_func() {
-    const ead_speakers = document.getElementById("lsm_investors");
-    animateValue_twodigit(ead_speakers, 0, 10, 5000);
+    const lsm_investors = document.getElementById("lsm_investors");
+    animateValue_twodigit(lsm_investors, 0, 10, 5000);
 }
 
 function lsm_startups_func() {
-    const ead_events = document.getElementById("lsm_startups");
-    animateValue_twodigit(ead_events, 0, 300, 5000);
+    const lsm_startups = document.getElementById("lsm_startups");
+    animateValue_twodigit(lsm_startups, 0, 300, 5000);
 }
 
 
