@@ -116,7 +116,7 @@ function animate(obj, initVal, lastVal, duration) {
     window.requestAnimationFrame(step);
 }
 
-
+// these are the functions
 function ead_attendees_func() {
     const ead_attendees = document.getElementById("ead_attendees");
     animate(ead_attendees, 10000, 30000, 5000);
@@ -150,10 +150,10 @@ function lsm_startups_func() {
 
 
 
-
+//this is the onscroll event 
 window.onscroll = function () { myFunction() };
 function myFunction() {
-    if (document.documentElement.scrollTop > 950) {
+    if (document.documentElement.scrollTop == 950) { // runs after 950px from top
         ead_events_func();
 
         ead_speakers_func();
@@ -165,5 +165,6 @@ function myFunction() {
         lsm_investors_func();
 
         lsm_pitches_func();
+
     }
 }
