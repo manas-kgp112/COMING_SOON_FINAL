@@ -1,8 +1,5 @@
 // EAD-LSM Glimpse section timer
 
-
-window.onscroll = function() {animateValue(obj, start, end, duration)};
-
 function animateValue_twodigit(obj, start, end, duration) {
     let startTimestamp = null;
     const step = (timestamp) => {
@@ -14,6 +11,25 @@ function animateValue_twodigit(obj, start, end, duration) {
         }
     };
     window.requestAnimationFrame(step);
+}
+
+
+window.onscroll = function () { myFunction() };
+function myFunction() {
+    if (document.documentElement.scrollTop > 950) {
+        ead_events_func();
+
+        ead_speakers_func();
+
+        ead_attendees_func();
+
+        lsm_startups_func();
+
+        lsm_investors_func();
+
+        lsm_sectors_func();
+
+    }
 }
 
 
@@ -151,20 +167,20 @@ function lsm_startups_func() {
 
 
 
-window.onscroll = function () { myFunction() };
-function myFunction() {
-    if (document.documentElement.scrollTop > 950) {
-        ead_events_func();
+// window.onscroll = function () { myFunction() };
+// function myFunction() {
+//     if (document.documentElement.scrollTop > 950) {
+//         ead_events_func();
 
-        ead_speakers_func();
+//         ead_speakers_func();
 
-        ead_attendees_func();
+//         ead_attendees_func();
 
-        lsm_startups_func();
+//         lsm_startups_func();
 
-        lsm_investors_func();
+//         lsm_investors_func();
 
-        lsm_sectors_func();
+//         lsm_sectors_func();
 
-    }
-}
+//     }
+// }
